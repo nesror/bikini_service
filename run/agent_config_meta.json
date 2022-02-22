@@ -1,0 +1,393 @@
+{
+  "keys": "/Users/nestor/node/bikini_service/config/config.default.ts",
+  "middleware": "/Users/nestor/node/bikini_service/config/config.default.ts",
+  "bodyParser": {
+    "enable": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "encoding": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "formLimit": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "jsonLimit": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "strict": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "queryString": {
+      "arrayLimit": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "depth": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "parameterLimit": "/Users/nestor/node/bikini_service/config/config.default.ts"
+    },
+    "enableTypes": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "extendTypes": {
+      "text": "/Users/nestor/node/bikini_service/config/config.default.ts"
+    },
+    "textLimit": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "onerror": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "autoFields": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/nestor/node/bikini_service/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "ignoreJSON": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "type": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "protocolWhiteList": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "allowMethods": "/Users/nestor/node/bikini_service/config/config.default.ts"
+  },
+  "websocket": {
+    "redis": {
+      "host": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "port": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "password": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "db": "/Users/nestor/node/bikini_service/config/config.default.ts"
+    },
+    "useAppMiddlewares": "/Users/nestor/node/bikini_service/node_modules/egg-websocket-plugin/config/config.default.js"
+  },
+  "alinode": {
+    "server": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "appid": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "secret": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "logdir": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "packages": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "enable": "/Users/nestor/node/bikini_service/node_modules/egg-alinode/config/config.default.js",
+    "cmddir": "/Users/nestor/node/bikini_service/node_modules/egg-alinode/config/config.default.js",
+    "error_log": "/Users/nestor/node/bikini_service/node_modules/egg-alinode/config/config.default.js",
+    "reconnectDelay": "/Users/nestor/node/bikini_service/node_modules/egg-alinode/config/config.default.js",
+    "heartbeatInterval": "/Users/nestor/node/bikini_service/node_modules/egg-alinode/config/config.default.js",
+    "reportInterval": "/Users/nestor/node/bikini_service/node_modules/egg-alinode/config/config.default.js"
+  },
+  "sequelize": {
+    "host": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "username": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "password": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "port": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "database": "/Users/nestor/node/bikini_service/config/config.default.ts",
+    "timezone": "/Users/nestor/node/bikini_service/config/config.default.ts"
+  },
+  "mysql": "/Users/nestor/node/bikini_service/config/config.default.ts",
+  "logger": {
+    "dir": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "appLogName": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "errorLogName": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "consoleLevel": "/Users/nestor/node/bikini_service/config/config.local.ts",
+    "encoding": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "env": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "level": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "customLogger": {
+    "accessLogger": {
+      "file": "/Users/nestor/node/bikini_service/config/config.local.ts"
+    },
+    "digestLogger": {
+      "file": "/Users/nestor/node/bikini_service/config/config.local.ts"
+    },
+    "scheduleLogger": {
+      "consoleLevel": "/Users/nestor/node/bikini_service/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/nestor/node/bikini_service/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/nestor/node/bikini_service/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/nestor/node/bikini_service/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/nestor/node/bikini_service/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/nestor/node/bikini_service/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/nestor/node/bikini_service/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/nestor/node/bikini_service/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/nestor/node/bikini_service/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/nestor/node/bikini_service/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/nestor/node/bikini_service/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/nestor/node/bikini_service/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/nestor/node/bikini_service/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/nestor/node/bikini_service/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/nestor/node/bikini_service/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/nestor/node/bikini_service/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/nestor/node/bikini_service/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/nestor/node/bikini_service/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/nestor/node/bikini_service/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/nestor/node/bikini_service/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/nestor/node/bikini_service/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/nestor/node/bikini_service/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/nestor/node/bikini_service/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/nestor/node/bikini_service/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/nestor/node/bikini_service/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/nestor/node/bikini_service/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/nestor/node/bikini_service/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/nestor/node/bikini_service/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/nestor/node/bikini_service/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/nestor/node/bikini_service/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/nestor/node/bikini_service/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/nestor/node/bikini_service/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/nestor/node/bikini_service/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/nestor/node/bikini_service/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/nestor/node/bikini_service/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/nestor/node/bikini_service/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/nestor/node/bikini_service/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js"
+  },
+  "redis": {
+    "default": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js"
+  },
+  "env": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "name": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "version": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "description": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "private": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "declarations": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "rpc": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "start": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "stop": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "dev": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "debug": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "test": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "cov": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "ci": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "autod": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "lint": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "clean": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@typegoose/typegoose": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/bluebird": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/validator": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-websocket-plugin": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "hessian.js": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "js-to-java": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "js2xmlparser": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "mongoose": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "node-zookeeper-client": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "nodemailer": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "reflect-metadata": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "sequelize": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "sequelize-typescript": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "sqlite3": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "wechat-encrypt": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "xml2js": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/jasmine": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/js-to-java": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/mongoose": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/nodemailer": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@types/xml2js": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@typescript-eslint/eslint-plugin": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "@typescript-eslint/parser": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "autod": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "egg-rpc-generator": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "eslint-config-alloy": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "prettier": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "tslint-config-egg": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "url": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "author": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "license": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "logging": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "port": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js"
+}
