@@ -1,17 +1,16 @@
 # bikini_service
-Online written test procedure
+Online written test procedure  
 typegoose，dubbo，redis，sequelize-typescript
-
-### duboo使用
-
-1. 进入gradleproject配置好maven地址和需要的jar和源码包;
-2. 在config/proxy.js编辑需要使用的类
-3. 运行 rpc-generator.sh（需要jdk1.8）;
-4. app/proxy自动生成js和d.ts文件;
-5. 调用app/proxy里对应的方法
 
 ### Development
 
+1.mysql账号密码环境变量(找我要)
+```
+export NESTOR_KEYSTORE_MYSQL=xxx
+export NESTOR_KEYSTORE_ALIAS=xxs
+```
+
+2.
 ```bash
 $ npm i
 $ npm run dev
@@ -36,3 +35,11 @@ sh ./start.sh
 
 - Node.js v12.13.0
 - Typescript 2.8+
+
+### duboo使用
+
+1. 进入gradleproject配置好maven地址和需要的jar和源码包;
+2. 在config/proxy.js编辑需要使用的类
+3. 运行 rpc-generator.sh（需要jdk1.8）;
+4. app/proxy自动生成js和d.ts文件;
+5. 调用app/proxy里对应的方法
