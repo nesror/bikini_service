@@ -106,3 +106,4 @@ dist
 *.debug.*
 app/**/*.js
 .idea/
+.run/

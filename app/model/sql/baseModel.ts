@@ -1,4 +1,4 @@
-import { Column, Model, CreatedAt, UpdatedAt } from 'sequelize-typescript';
+import {Column, Model, CreatedAt, UpdatedAt} from 'sequelize-typescript';
 
 /**
  * BaseModel
@@ -28,12 +28,12 @@ export class BaseModel<T> extends Model<T> {
     /**
      * 创建人
      */
-    @Column
+    @Column({defaultValue: "system"})
     public create_person: string;
 
     /**
      * 修改人
      */
-    @Column
+    @Column({defaultValue: "system"})
     public update_person: string;
 }
