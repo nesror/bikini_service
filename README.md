@@ -24,7 +24,8 @@ Don't tsc compile at development mode, if you had run `tsc` then you need to `np
 ```bash
 sh ./start.sh
 ```
-
+### node性能平台
+https://node.console.aliyun.com/dashboard/apps/90277/#!/agents
 ### Npm Scripts
 
 - Use `npm run lint` to check code style
