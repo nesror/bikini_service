@@ -105,6 +105,18 @@
     },
     "useAppMiddlewares": "/Users/nestor/node/bikini_service/node_modules/egg-websocket-plugin/config/config.default.js"
   },
+  "redis": {
+    "client": {
+      "host": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "port": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "password": "/Users/nestor/node/bikini_service/config/config.default.ts",
+      "db": "/Users/nestor/node/bikini_service/config/config.default.ts"
+    },
+    "default": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js"
+  },
   "alinode": {
     "server": "/Users/nestor/node/bikini_service/config/config.local.ts",
     "appid": "/Users/nestor/node/bikini_service/config/config.local.ts",
@@ -227,12 +239,6 @@
     "defaultExtension": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/nestor/node/bikini_service/node_modules/egg-view/config/config.default.js"
-  },
-  "redis": {
-    "default": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
-    "app": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
-    "agent": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js",
-    "supportTimeCommand": "/Users/nestor/node/bikini_service/node_modules/egg-redis/config/config.default.js"
   },
   "env": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",
   "name": "/Users/nestor/node/bikini_service/node_modules/egg/config/config.default.js",

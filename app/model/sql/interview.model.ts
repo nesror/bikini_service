@@ -35,5 +35,11 @@ export default class Interview extends BaseModel<Interview> {
         comment: '笔试内容',
         field: 'interview_value'
     })
-    public value: string;
+    public value: Buffer;
+
+    @Column({
+        comment: '笔试题目id',
+        field: 'questions_id'
+    })
+    public questionsId: number;
 }

@@ -25,8 +25,7 @@ export default class InterviewService extends Service {
         return info;
     }
 
-    public async updateValue(id: number, value: string): Promise<[number, Interview[]]> {
-        // TODO 压缩value数据
+    public async updateValue(id: number, value: Buffer): Promise<[number, Interview[]]> {
         return Interview.update({
             value: value,
         }, { where: { id } });

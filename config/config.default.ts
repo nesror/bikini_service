@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
 /* eslint-disable @typescript-eslint/no-require-imports */
-import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
-import { bizConfig } from './bizConfig';
+import {EggAppConfig, EggAppInfo, PowerPartial} from 'egg';
+import {bizConfig} from './bizConfig';
 
 export default (appInfo: EggAppInfo) => {
     const config = {} as PowerPartial<EggAppConfig>;
@@ -58,6 +58,14 @@ export default (appInfo: EggAppInfo) => {
         },
     };
 
+    config.redis = {
+        client: {
+            host: 'www.yzapp.cn',
+            port: 6379,
+            password: "test@@##$$226688",
+            db: 0
+        }
+    };
     // redis
     // config.redis = {
     //     client: {

@@ -4,7 +4,7 @@ const prefix = '00353:';
 /**
  * 调用redis的服务
  */
-export default class CacheService extends Service {
+export default class RedisService extends Service {
     /**
      * 根据key获得值
      * @param key key
@@ -12,7 +12,7 @@ export default class CacheService extends Service {
     public async get(key: string) {
         const { redis, logger } = this.app;
         const t = Date.now();
-        let data = await redis.get(prefix + key);
+        let data = await redis.getBuffer(prefix + key);
         if (!data) return;
         const duration = Date.now() - t;
         logger.debug('Cache', 'get', key, duration + 'ms');

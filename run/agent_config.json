@@ -166,7 +166,13 @@
       "default": {},
       "app": true,
       "agent": false,
-      "supportTimeCommand": true
+      "supportTimeCommand": true,
+      "client": {
+        "host": "www.yzapp.cn",
+        "port": 6379,
+        "password": "<String len: 16>",
+        "db": 0
+      }
     },
     "alinode": {
       "enable": true,
