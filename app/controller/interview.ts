@@ -1,5 +1,4 @@
 import {Controller} from 'egg';
-import Interview from '../model/sql/interview.model';
 
 export default class InterviewController extends Controller {
     public async readInterview() {
@@ -14,8 +13,8 @@ export default class InterviewController extends Controller {
     }
 
     public async readInterviews() {
-        const {ctx,} = this;
-        ctx.body = await Interview.findAll();
+        const {ctx, service} = this;
+        ctx.body = await service.interview.findInterviews();
     }
 
     public async createInterview() {
@@ -51,5 +50,19 @@ export default class InterviewController extends Controller {
             return;
         }
         ctx.body = id;
+    }
+
+    public async interviewWebSocket() {
+        const {ctx, service} = this;
+        if (!ctx.websocket) {
+            ctx.status = 500;
+            ctx.body = "只允许ws方法调用";
+            return;
+        }
+        const errMsg = await service.interview.syncValue(ctx.websocket, ctx.request.query.id);
+        if (errMsg) {
+            ctx.status = 500;
+            ctx.body = errMsg;
+        }
     }
 }

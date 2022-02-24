@@ -11,5 +11,5 @@ export default (app: Application) => {
     router.post('/api/updateInterview', controller.interview.updateInterview);
 
     // io.of('/').route('/api/ws/interview', controller.interview.interviewWebSocket);
-    ws.route('/api/ws/interview', controller.interviewWs.interviewWebSocket);
+    ws.route('/api/ws/interview', controller.interview.interviewWebSocket);
 };
