@@ -13,8 +13,8 @@ export const bizConfig = {
     },
     sequelize: {
         host: 'www.yzapp.cn',
-        username: process.env.NESTOR_KEYSTORE_ALIAS,
-        password: process.env.NESTOR_KEYSTORE_MYSQL,
+        username: process.env.NESTOR_MYSQL_USERNAME,
+        password: process.env.NESTOR_MYSQL_PASSWORD,
         port: 3306,
         database: 'nodedb',
         timezone: 'Asia/Shanghai',

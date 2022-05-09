@@ -202,7 +202,7 @@
       "client": {
         "host": "www.yzapp.cn",
         "port": 6379,
-        "password": "<String len: 16>",
+        "password": "<String len: 10>",
         "db": 0
       }
     },
@@ -229,7 +229,7 @@
       "redis": {
         "host": "www.yzapp.cn",
         "port": 6379,
-        "password": "<String len: 16>",
+        "password": "<String len: 10>",
         "db": 0
       }
     },
@@ -459,8 +459,8 @@
     ],
     "sequelize": {
       "host": "www.yzapp.cn",
-      "username": "nestor",
-      "password": "<String len: 8>",
+      "username": "bikini",
+      "password": "<String len: 10>",
       "port": 3306,
       "database": "nodedb",
       "timezone": "Asia/Shanghai"

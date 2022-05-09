@@ -68,14 +68,16 @@ export default class InterviewService extends Service {
             if (!data || !data.value || data.from === uuid) {
                 return;
             }
-            // 将消息发送到当前连接
+            // 将消息发送到除自己外的其它房间成员
             websocket.send(encode.encode(data.value));
         });
 
+        // 从数据库里读取
         const info = await this.findInterviewById(Number(id));
         if (info === null) {
             return `没有找到${id}的数据`;
         }
+        // 从redis读取最新的笔试信息
         const value = await this.service.redis.get("room" + id);
         websocket
             .on('message', async (msg) => {
@@ -89,7 +91,8 @@ export default class InterviewService extends Service {
                         websocket.send(this.getBuffer(WSTypes.heartbeat, encode.encode(id)));
                         return;
                     case encode.encode(WSTypes.setValue)[0]:
-                        this.service.redis.set("room" + id, msg.slice(1));
+                        // 存入redis最新的笔试信息
+                        await this.service.redis.set("room" + id, msg.slice(1));
                         if (msg.slice(1)) {
                             this.app.ws.sendJsonTo(id, {
                                 from: uuid,

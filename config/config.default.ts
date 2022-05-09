@@ -53,7 +53,7 @@ export default (appInfo: EggAppInfo) => {
         redis: {
             host: 'www.yzapp.cn',
             port: 6379,
-            password: "test@@##$$226688",
+            password: process.env.NESTOR_REDIS,
             db: 0
         },
     };
@@ -62,7 +62,7 @@ export default (appInfo: EggAppInfo) => {
         client: {
             host: 'www.yzapp.cn',
             port: 6379,
-            password: "test@@##$$226688",
+            password: process.env.NESTOR_REDIS,
             db: 0
         }
     };
