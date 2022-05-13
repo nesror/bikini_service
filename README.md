@@ -5,10 +5,11 @@ typegoose，redis，sequelize-typescript
 
 ### Development
 
-1.mysql账号密码环境变量(找我要)
+1.redios、mysql账号密码环境变量
 ```
-export NESTOR_KEYSTORE_MYSQL=xxx
-export NESTOR_KEYSTORE_ALIAS=xxs
+export NESTOR_REDIS=xxx
+export NESTOR_MYSQL_USERNAME=xxx
+export NESTOR_MYSQL_PASSWORD=xxx
 ```
 
 2.
