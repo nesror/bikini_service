@@ -1,6 +1,7 @@
 # bikini_service
 Online written test procedure  
 typegoose，redis，sequelize-typescript
+基础框架,mysql,redis,日志,http中间件,websocket,eslint
 
 ### Development
 
