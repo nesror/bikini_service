@@ -1,6 +1,6 @@
 # bikini_service
 Online written test procedure  
-typegoose，dubbo，redis，sequelize-typescript
+typegoose，redis，sequelize-typescript
 
 ### Development
 
